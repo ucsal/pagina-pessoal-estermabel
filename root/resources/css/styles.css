@@ -1,11 +1,11 @@
-/*Class responsible for the body's style*/
+  /*Class responsible for the body's style*/
 .body {
     background-color: rgb(64, 64, 64);
     margin: 0;
       
 }
 
-/*Class responsible for the header's style*/
+  /*Class responsible for the header's style*/
 .header {
     background-color: rgb(39, 39, 39);
     text-align: center;
@@ -13,7 +13,7 @@
     width: available;
 }
 
-/*Class responsible for the name/title's style*/
+  /*Class responsible for the name/title's style*/
 .topName1 {
   text-decoration: none;
   color: rgb(0, 182, 182);
@@ -26,12 +26,14 @@
   font-size: 35px;
 
 }
+  /*Class responsible for style the element
+  while the mouse is passing through*/
 .topNameMouse a:hover {
   text-decoration: none;
   color: white;
 }
 
-/*Class responsible for the description's style*/
+  /*Class responsible for the description's style*/
 .description1 {
     text-decoration: none;
     color: rgb(0, 182, 182);
@@ -42,13 +44,15 @@
   color: white;
   margin-left: 20px;
 }
+  /*Class responsible for style the element
+  while the mouse is passing through*/
 .descriptionMouse a:hover {
   text-decoration: none;
   color: white;
 }
 
-/*Class that defines the navigation 
-bar on top of the screen*/
+  /*Class that defines the navigation 
+  bar on top of the screen*/
 .topNavBar {
   /*Overflow: Specifies whether to clip the content 
   or to add scrollbars when the content of an element 
@@ -75,8 +79,6 @@ bar on top of the screen*/
     color: black;
   }
 
- 
-  
   /*Class responsible for style the element that
   has been clicked*/
 .topNavBar a.active {
