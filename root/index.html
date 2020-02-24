@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Css' link -->
     <link rel="stylesheet" type="text/css" href="./resources/css/styles.css">
+    <!-- Icons Library's link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ester Mabel - Portifólio</title>
+    <title>Ester Mabel</title>
   </head>
   <body class="body">
     <header class="header">
       <div class="topNameMouse">
-        <a class="topName1" href="https://www.instagram.com/estermabel/">
+        <a class="topName1" href="https://github.com/estermabel">
           <b>{ ester</b><b class="topName2">mabel }</b>
         </a>
       </div>
@@ -25,14 +29,48 @@
     from the 'topNavBar' file in the 'components'
      folder -->
     <div class="topNavBar">
-      <a class="active" href="root/index.html">Home</a>
-      <a href="root/otherPages/myWork.html">My Work</a>
-      <a href="root/otherPages/contactMe.html">Contact Me</a>
-      <a href="root/otherPages/blog.html">Blog</a>
-    </div>
+      <a class="active" href="root/index.html">
+        <i class="fa fa-fw fa-home"></i> Home
+      </a>
+      
+      <div class="dropdownMenu">
+        <button class="dropButton">My Work
+          <i class="fa fa-angle-down"></i>
+        </button>
+        
+        <div class="dropdownMenu-content">
+          <a href="https://github.com/estermabel">
+            <i class="fa fa-github-square"></i> GitHub
+          </a>
+          <a href="https://www.behance.net/estermabel">
+            <i class="fa fa-behance-square"></i> Behance
+          </a>
+        </div>
+      </div>
 
-    <!-- teste -->
-    
+      <div class="dropdownMenu">
+        <button class="dropButton">Contact Me 
+          <i class="fa fa-angle-down"></i>
+        </button>
+        <div class="dropdownMenu-content">
+          <a href="mailto:estermabel2@gmail.com">
+            <i class="fa fa-envelope"></i> Email
+          </a>
+          <a href="https://www.linkedin.com/in/ester-mabel-aa7384185/">
+            <i class="fa fa-linkedin-square"></i> Linkedln
+          </a>
+          <a href="https://www.instagram.com/estermabel/">
+            <i class="fa fa-instagram"></i> Instagram
+          </a>
+          <a href="https://twitter.com/einsterkl_">
+            <i class="fa fa-twitter-square"></i> Twitter
+          </a>
+        </div>
+      </div>
+
+      <a href="#blog"><i class="fa fa-globe"></i>  Blog</a>
+    </div>  
+
     <!-- JavaScript file below -->
     <script type="text/javascript" src="root/resources/js/script.js"></script>
   </body>
