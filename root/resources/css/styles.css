@@ -14,15 +14,37 @@
 }
 
 /*Class responsible for the name/title's style*/
-.topName {
-    color: white;
-    margin-left: 20px;
+.topName1 {
+  text-decoration: none;
+  color: rgb(0, 182, 182);
+  font-size: 35px;
+}
+.topName2 {
+  text-decoration: none;
+  color: white;
+  margin-left: 0px;
+  font-size: 35px;
+
+}
+.topNameMouse a:hover {
+  text-decoration: none;
+  color: white;
 }
 
 /*Class responsible for the description's style*/
-.description {
+.description1 {
+    text-decoration: none;
     color: rgb(0, 182, 182);
     margin-left: 20px;
+    font-size: 30px;
+}
+.description2 {
+  color: white;
+  margin-left: 20px;
+}
+.descriptionMouse a:hover {
+  text-decoration: none;
+  color: white;
 }
 
 /*Class that defines the navigation 
@@ -52,6 +74,8 @@ bar on top of the screen*/
     background-color: #ddd;
     color: black;
   }
+
+ 
   
   /*Class responsible for style the element that
   has been clicked*/
